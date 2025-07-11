@@ -19,10 +19,7 @@ O contrato `modificador.sol` inclui:
 - Função `apenasDono()` que só pode ser chamada pelo proprietário;
 - Modificador `somenteDono` para limitar acesso.
 
-## 🧪 Exemplo de uso
+✍️ Autor
+André G. Silva
+📍 Americana-SP
 
-```solidity
-modifier somenteDono() {
-    require(msg.sender == dono, "Apenas o dono pode executar esta funcao");
-    _;
-}
